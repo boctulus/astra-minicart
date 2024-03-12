@@ -1,0 +1,55 @@
+/*
+	Astra footer
+*/
+
+h1 {
+    display: none;
+}
+
+.site-below-footer-wrap {
+    background-color: white !important;
+}
+
+/* Estilo predeterminado para la imagen */
+img.custom-logo {
+    max-width: unset !important;
+    width: 80px;
+    height: 80px;
+    margin-left: 23px;
+    float: left; /* Hacer que la imagen flote a la izquierda */
+    clear: left; /* Borrar el float para evitar que otros elementos floten alrededor */
+}
+
+/* Otra media query para pantallas aún más pequeñas */
+@media (min-width: 1317px) {
+    img.custom-logo {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 921px) {
+    img.custom-logo {
+        width: 75px; /* Cambia el ancho para pantallas más pequeñas */
+        height: 75px; /* Cambia la altura para pantallas más pequeñas */        
+    }
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    img.custom-logo {
+        margin-left: 0px;
+        margin-bottom: 10px;
+        width: 50px; /* Cambia el ancho para pantallas más pequeñas */
+        height: 50px; /* Cambia la altura para pantallas más pequeñas */
+    }
+}
+
+/* Otra media query para pantallas aún más pequeñas */
+@media (max-width: 480px) {
+    img.custom-logo {
+        margin-left: 0px;
+        width: 30px; /* Cambia el ancho para pantallas muy pequeñas */
+        height: 30px; /* Cambia la altura para pantallas muy pequeñas */
+    }
+}
+
